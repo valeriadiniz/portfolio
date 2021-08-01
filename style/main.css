@@ -1,0 +1,140 @@
+:root {
+    --rosa: #f07dab;
+    --rosaclaro: #ffe4e1;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--rosaclaro);
+    font-family: 'Arial', Times, Serif;
+    color: #f9c6da;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/*       */
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffe4e1;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+
+.profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-photo img {
+    height: 15rem;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--rosa);
+    font-family: 'Arial Black';
+    font-size: 40px;
+    cursor: pointer;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #f07dab;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+.tela-principal {
+    /*border: 1px solid white;*/
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('../img/capa.jpg');
+    background-size: 100%;
+    /*background-position: cover;*/
+    background-repeat: no-repeat;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tela-principal .descricao {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.titulo {
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+}
+
+.botao {
+    background-color: #f07dab;
+    border: none;
+    color: black;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+    margin-top: 20px;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+.container {
+    margin-left: 20px;
+}
+
+.container1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tela-principal .container1 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-projeto {
+    display: block;
+    cursor: pointer;
+}
+
+.carrossel-projetos {
+    margin-top: 15px;
+}
